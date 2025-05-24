@@ -23,4 +23,4 @@ for index, row in df.iterrows():
 with open("twipv6.rsc", "w", encoding="utf-8") as file:
     file.write(routeros_config)
 
-print("RouterOS 匯入檔 `ipv6_routeros_utf8.rsc` 已成功儲存！")
+print("RouterOS 匯入檔 `twipv6.rsc` 已成功儲存！")
